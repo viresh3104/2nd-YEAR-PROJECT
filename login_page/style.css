@@ -16,7 +16,7 @@ body {
   background-image: url('test.jpg');
   background-size: cover;
   background-repeat: no-repeat;
-  background-position: center ;
+  background-position: center;
 }
 
 .wrapper {
@@ -25,7 +25,8 @@ body {
   height: 450px;
   background: transparent;
   border:2px solid black;
-  backdrop-filter: blur(8px);
+  backdrop-filter: blur(4px);
+  border-radius: 20px;
 
 }
 
@@ -70,7 +71,16 @@ body {
     border: none;
     outline: none;
     border-bottom: 2px solid #0f0d0d;
+    padding-right: 24px ;
+    font-size: 16px;
+    font-weight: 500; 
+    transition: .3;
 
+}
+
+.input-box input:focus,
+.input-box input:valid{
+    border-bottom-color: rgb(206, 193, 193);
 }
 
 .input-box label  {
@@ -97,6 +107,12 @@ body {
     transform: translateY(-50%);
     font-size: 18px;
     color: black;
+    transition: .3s ;
+}
+
+.input-box input:focus~i,
+.input-box input:valid~i{
+    color:  rgb(206, 193, 193);
 }
 
 .btn{
@@ -110,6 +126,10 @@ body {
     font-size: 16px;
     color: black;
     font-weight: 600;
+}
+
+.btn::before{
+    background:linear-gradient(black);
 }
 
 .form-box .logreg-link{
