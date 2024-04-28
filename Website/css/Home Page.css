@@ -55,7 +55,7 @@ div#slider figure
     height:100%;
     border-style: solid;
     border-width: 3px;
-    border-color: #FFBD00;
+    border-color: #4b91e0;
 }
 @-webkit-keyframes slidy {
     0% {
@@ -141,16 +141,17 @@ div#slider figure
 
 #headiv
 {
-    margin-left: 4%;
-    margin-right: 4%;
+    margin-left: 14;
+    margin-right: 20%;
     width: 92%;
 }
 
 #heading
 {
 
-    color: #4D3C3C; 
+    color: #e0730d; 
     font-size: 50px;
+    margin-left: 15%;
 
 }
 
@@ -166,7 +167,7 @@ div#slider figure
 
 #left
 {
-    width: 35%;
+    width: 50%;
     /*border-right: 2px solid rgba(184, 184, 184, 0.5);*/
     box-shadow: 4px 0 4px 0 rgba(0,0,0,0.2), 4px 0 4px 0 rgba(0,0,0,0.19);
     border-bottom: 2px solid rgba(199, 199, 199, 1);
@@ -227,11 +228,11 @@ div#slider figure
 
 #highlt
 {
-    margin-left: 40%;
+    margin-left: 60%;
     margin-right: 10%;
     width: 61%;
     border-left: 4px solid rgba(199, 199, 199, 0.3);
-    
+    box-shadow: 4px 0 4px 0 rgba(0,0,0,0.2), 4px 0 4px 0 rgba(0,0,0,0.19);
     padding-left: 1%;
     padding-right: 4%;
 }
@@ -264,11 +265,12 @@ div#slider figure
 
 #newdiv
 {
-    margin-left: 40%;
+    margin-left: 60%;
     margin-right: 10%;
     width: 61%;
     border-left: 4px solid rgba(199, 199, 199, 0.3);
     border-top: 4px solid rgba(199, 199, 199, 0.3);
+    box-shadow: 4px 0 4px 0 rgba(0,0,0,0.2), 4px 0 4px 0 rgba(0,0,0,0.19);
     padding-left: 1%;
     padding-right: 4%;
 }
